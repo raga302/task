@@ -1,0 +1,133 @@
+.main {
+    width: 100%;
+    height: 100vmax;
+
+
+}
+
+.toDoHeading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.inputBox {
+    width: 20rem;
+    height: 3rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.addBtn {
+    width: 4rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(21, 51, 111);
+    color: #fff;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.deleteAll{
+    width: 7rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(163, 27, 27);
+    color: #fff;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.undoAll{
+    width: 7rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(22, 54, 83);
+    color: #fff;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media(max-width:830px){
+    .inputBox{
+        width: 13rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .addBtn{
+        width: 3rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    .deleteAll{
+        width: 5.2rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    .undoAll{
+        width: 5rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    .toDoHeading{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:550px){
+    .inputBox{
+        width: 7rem;
+        height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    .addBtn{
+        width: 2rem;
+        height: 1.8rem;
+        font-size: 0.6rem;
+    }
+    .deleteAll{
+        width: 3.2rem;
+        height: 1.8rem;
+        font-size: 0.5rem;
+    }
+    .undoAll{
+        width: 3.2rem;
+        height: 1.8rem;
+        font-size: 0.5rem;
+    }
+
+    .toDoHeading{
+        font-size: 2rem;
+    }
+}
