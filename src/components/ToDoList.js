@@ -13,7 +13,7 @@ function ToDoList(props) {
         <div>
             {todoListItem.map((val) => {
                 return (
-                    <div className='mt-5' key={val.id}>
+                    <div className='' key={val.id}>
                         <div className=' bg-dark listDiv'>
                             <div className=' text ' >
                                 <span className='text-white inputField'> {val.itemName}  </span>
