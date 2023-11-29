@@ -1,7 +1,7 @@
 {
   "name": "something",
   "version": "0.1.0",
-  "homepage": "https://raga302.github.io/todo",
+  "homepage": "https://raga302.github.io/task",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.0"
   }
 }
